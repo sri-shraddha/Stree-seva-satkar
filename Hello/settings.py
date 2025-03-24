@@ -103,7 +103,7 @@ db = client[MONGO_DB_NAME]
 # Define collections for each app
 MONGO_COLLECTIONS = {
     "contact": db["contact"],         # Collection for Contact app
-    "users": db["users"],             # Collection for Registration app
+    "user": db["user"],             # Collection for Registration app
     "response": db["response"],       # Collection for Chatbot app
 }
 
